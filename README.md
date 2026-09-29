@@ -1,10 +1,17 @@
-# jake-pulitzer.com
+# Jake Pulitzer's Portfolio
 
-Personal résumé site. Hand-built, no framework, no build step.
+I created this repository to have a central webpage for viewing my resume and projects within GitHub.
 
-**Bauhaus geometry, pastel palette, live motion layer.**
+On this GitHub page you will find my bio, professional experience, and links to my personal projects.
 
-## Structure
+If you are interested in my work, please contact me at pulitzer.jake@gmail.com
+
+---
+
+## How the site is built
+
+Hand-built. No framework, no build step — Bauhaus geometry, a pastel palette,
+and a live motion layer.
 
 ```
 index.html        all content and markup
@@ -14,7 +21,7 @@ favicon.svg       geometric mark
 .nojekyll         tells GitHub Pages to serve the files as-is
 ```
 
-## Editing
+### Editing
 
 All résumé content lives in `index.html` — experience entries are `<li class="tl-item">`
 blocks inside `<ol class="timeline">`. Copy an existing one to add a job.
@@ -23,7 +30,7 @@ Colours are CSS custom properties at the top of `css/style.css`:
 `--cream`, `--ink`, `--red`, `--blue`, `--yellow`, `--sage`.
 Each card picks one via `data-accent="red|blue|yellow|sage"`.
 
-## Preview locally
+### Preview locally
 
 ```
 python3 -m http.server 8000
@@ -31,7 +38,7 @@ python3 -m http.server 8000
 
 Then open <http://localhost:8000>.
 
-## Motion
+### Motion
 
 The background field is a `<canvas>` of drifting circles, squares, triangles,
 arcs and rules. It reacts to the cursor, ripples on click, and parallaxes on
