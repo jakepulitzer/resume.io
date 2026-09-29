@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jake Pulitzer — Marketing Analyst &amp; Strategist</title>
+<meta name="description" content="Jake Pulitzer — Marketing Analyst, Strategist, and Creative Problem Solver working in clean tech and sustainable energy.">
+<meta name="author" content="Jake Pulitzer">
+<meta property="og:title" content="Jake Pulitzer — Marketing Analyst &amp; Strategist">
+<meta property="og:description" content="Marketing Analyst, Strategist, and Creative Problem Solver working in clean tech and sustainable energy.">
+<meta property="og:type" content="profile">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<script>document.documentElement.classList.add('js');</script>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<canvas id="field" aria-hidden="true"></canvas>
+<div class="grain" aria-hidden="true"></div>
+
+<div class="progress" aria-hidden="true"><span id="progress-bar"></span></div>
+
+<nav class="sidenav" aria-label="Section navigation">
+  <ul>
+    <li><a href="#top" data-nav="top"><i class="glyph circle"></i><span>Top</span></a></li>
+    <li><a href="#about" data-nav="about"><i class="glyph square"></i><span>About</span></a></li>
+    <li><a href="#work" data-nav="work"><i class="glyph triangle"></i><span>Work</span></a></li>
+    <li><a href="#education" data-nav="education"><i class="glyph half"></i><span>Education</span></a></li>
+    <li><a href="#toolkit" data-nav="toolkit"><i class="glyph quarter"></i><span>Toolkit</span></a></li>
+    <li><a href="#contact" data-nav="contact"><i class="glyph ring"></i><span>Contact</span></a></li>
+  </ul>
+</nav>
+
+<button class="motion-toggle" id="motion-toggle" aria-pressed="true" title="Pause or resume motion">
+  <span class="mt-icon" aria-hidden="true"></span><span class="mt-label">MOTION</span>
+</button>
+
+<!-- ============ HERO ============ -->
+<header class="hero" id="top">
+  <div class="hero-frame">
+
+    <div class="hero-mark" aria-hidden="true">
+      <svg viewBox="0 0 200 200" class="mark-svg">
+        <circle class="m m1" cx="60" cy="60" r="44" fill="var(--blue)"/>
+        <rect class="m m2" x="96" y="16" width="88" height="88" fill="var(--red)"/>
+        <path class="m m3" d="M16 184 A 84 84 0 0 1 184 184 Z" fill="var(--yellow)"/>
+        <line class="m m4" x1="0" y1="112" x2="200" y2="112" stroke="var(--ink)" stroke-width="3"/>
+      </svg>
+    </div>
+
+    <p class="eyebrow"><span class="dot"></span>Portfolio &amp; Résumé — Denver, Colorado</p>
+
+    <h1 class="giant" id="giant">
+      <span class="line" data-line="1">
+        <span class="ch">J</span><span class="ch">A</span><span class="ch">K</span><span class="ch">E</span>
+      </span>
+      <span class="line" data-line="2">
+        <span class="ch">P</span><span class="ch">U</span><span class="ch">L</span><span class="ch">I</span><span class="ch">T</span><span class="ch">Z</span><span class="ch">E</span><span class="ch">R</span>
+      </span>
+    </h1>
+
+    <div class="hero-meta">
+      <p class="role">Marketing Analyst <b>/</b> Strategist <b>/</b> Creative Problem&nbsp;Solver</p>
+      <p class="hero-sub">Turning messy data into campaigns that actually move numbers — currently in clean tech &amp; sustainable energy.</p>
+    </div>
+
+    <div class="hero-cta">
+      <a class="btn btn-solid" href="#work">See the work</a>
+      <a class="btn btn-ghost" href="mailto:pulitzer.jake@gmail.com">Get in touch</a>
+    </div>
+
+  </div>
+
+  <div class="scrollcue" aria-hidden="true">
+    <span class="scrollcue-label">SCROLL</span>
+    <span class="scrollcue-rail"><span class="scrollcue-bead"></span></span>
+  </div>
+</header>
+
+<main>
+
+<!-- ============ ABOUT ============ -->
+<section class="section" id="about">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-num">01</span>
+      <h2 class="sec-title">About</h2>
+      <span class="sec-rule"></span>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-copy reveal" data-delay="1">
+        <p class="lead">Hi, my name is Jake Pulitzer. I'm a motivated and hard-working Marketing Analyst hoping to make a positive impact in the clean tech and sustainable energy sectors. I currently work on a start-up-like team that uses Agile and Lean business management methodologies to develop customer-facing products and programs enabled by AMI technology.</p>
+        <p>I excel at building relationships with internal and external stakeholders, developing documentation and training materials for sales teams and consultants, and creating data-driven presentations to demonstrate product performance. My problem-solving mindset drives me to analyze program performance, identify key areas to improve customer experience, and make process improvement recommendations to management.</p>
+        <p>With a Master's in Business Analytics and a Bachelor's in Strategic Communications from the University of Colorado Boulder, I stay up to date on the latest tech, growth marketing, and CX trends in the clean tech and sustainable energy sectors. Outside of work I'm an aspiring entrepreneur, an outdoor enthusiast, and always ready to take on a challenge and dive into innovative solutions.</p>
+      </div>
+
+      <aside class="about-stats reveal" data-delay="2">
+        <div class="stat" data-accent="red">
+          <span class="stat-num" data-count="200" data-suffix="%">200%</span>
+          <span class="stat-label">Lift in campaign effectiveness at Xcel Energy</span>
+        </div>
+        <div class="stat" data-accent="blue">
+          <span class="stat-num" data-count="20" data-prefix="$" data-suffix="K">$20K</span>
+          <span class="stat-label">Marketing budget reallocated for maximum ROI</span>
+        </div>
+        <div class="stat" data-accent="yellow">
+          <span class="stat-num" data-count="80" data-suffix="+">80+</span>
+          <span class="stat-label">Realtor pages &amp; email automations built</span>
+        </div>
+        <div class="stat" data-accent="sage">
+          <span class="stat-num" data-count="2">2</span>
+          <span class="stat-label">CU Boulder degrees — BSc &amp; MSc</span>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WORK ============ -->
+<section class="section" id="work">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-num">02</span>
+      <h2 class="sec-title">Experience</h2>
+      <span class="sec-rule"></span>
+    </div>
+
+    <ol class="timeline">
+
+      <li class="tl-item reveal" data-accent="red">
+        <span class="tl-mark" aria-hidden="true"><svg viewBox="0 0 40 40"><circle cx="20" cy="20" r="18"/></svg></span>
+        <article class="card">
+          <header class="card-head">
+            <div>
+              <h3 class="card-title">Marketing Analyst</h3>
+              <p class="card-org"><a href="https://www.xcelenergy.com" target="_blank" rel="noopener">Xcel Energy <span class="ext">↗</span></a></p>
+            </div>
+            <p class="card-date">Oct 2021 — Present</p>
+          </header>
+          <ul class="card-list">
+            <li>Build reports and dashboards to monitor and analyze product and marketing performance metrics, identifying issues and optimizing future campaigns using lean methodologies; delivered segmentation recommendations to product managers and leadership that drove a <mark>200% increase in campaign effectiveness</mark>.</li>
+            <li>Partner with product managers to define KPIs for tracking product portfolio performance; pull reports from Salesforce.com and other legacy systems for leadership and external stakeholders.</li>
+            <li>Developed the process for building, testing, launching, and monitoring email campaigns to achieve operational excellence — fully documented for repeatable execution and seamless knowledge transfer.</li>
+            <li>Designed and implemented a strategic marketing campaign that earned Xcel Energy <mark>SECC recognition as a leader in Consumer Education</mark> for a robust, multi-channel campaign helping consumers understand a new time-of-use rate and manage their energy use.</li>
+          </ul>
+        </article>
+      </li>
+
+      <li class="tl-item reveal" data-accent="blue">
+        <span class="tl-mark" aria-hidden="true"><svg viewBox="0 0 40 40"><rect x="3" y="3" width="34" height="34"/></svg></span>
+        <article class="card">
+          <header class="card-head">
+            <div>
+              <h3 class="card-title">Intern / Marketing Consultant</h3>
+              <p class="card-org"><a href="https://pulitzerfamilylaw.com" target="_blank" rel="noopener">Pulitzer Family Law <span class="ext">↗</span></a></p>
+            </div>
+            <p class="card-date">Jun 2019 — Aug 2021</p>
+          </header>
+          <ul class="card-list">
+            <li>Developed marketing strategies for customer acquisition; implemented tactics including an office relocation and a segment pivot, increasing revenue while reducing total billed hours.</li>
+            <li>Built dashboards in Google Analytics to optimize campaign effectiveness; tracked leads from multiple law directories and reallocated a <mark>$20,000 marketing budget</mark> to maximize ROI based on historical ad performance.</li>
+            <li>Oversaw the web development team to deliver the build on time and within budget while maintaining brand standards and company values.</li>
+          </ul>
+        </article>
+      </li>
+
+      <li class="tl-item reveal" data-accent="yellow">
+        <span class="tl-mark" aria-hidden="true"><svg viewBox="0 0 40 40"><path d="M20 2 L38 36 L2 36 Z"/></svg></span>
+        <article class="card">
+          <header class="card-head">
+            <div>
+              <h3 class="card-title">Marketing Intern</h3>
+              <p class="card-org"><a href="https://8z.com/" target="_blank" rel="noopener">8z Real Estate <span class="ext">↗</span></a></p>
+            </div>
+            <p class="card-date">Aug 2019 — Dec 2019</p>
+          </header>
+          <ul class="card-list">
+            <li>Created web pages and configured newsletter email automation for <mark>80+ realtors</mark> using Adobe Dreamweaver, HTML, CSS, WordPress, and Mailchimp.</li>
+            <li>Assisted the Marketing Director with inventory management to establish a consistent brand image across 8 Colorado offices, eliminating delays in marketing materials.</li>
+            <li>Devised targeted social campaigns and defined a clear customer segmentation strategy to grow total impressions; collaborated with the CMO and client care team on omni-channel campaigns.</li>
+          </ul>
+        </article>
+      </li>
+
+      <li class="tl-item reveal" data-accent="sage">
+        <span class="tl-mark" aria-hidden="true"><svg viewBox="0 0 40 40"><path d="M2 20 A18 18 0 0 1 38 20 Z"/><path d="M2 22 A18 18 0 0 0 38 22 Z" opacity=".35"/></svg></span>
+        <article class="card">
+          <header class="card-head">
+            <div>
+              <h3 class="card-title">Student Mentor</h3>
+              <p class="card-org"><a href="https://untappedlearning.com/" target="_blank" rel="noopener">Untapped Learning <span class="ext">↗</span></a></p>
+            </div>
+            <p class="card-date">Aug 2018 — Jun 2019</p>
+          </header>
+          <ul class="card-list">
+            <li>Managed a group of 70+ high school student athletes with executive functioning disorders.</li>
+            <li>Tracked the academic progress of 5 students, identifying weaknesses in math, science, and writing; planned study schedules and ran individual remedial lessons leading to a <mark>30% increase in academic performance</mark>.</li>
+          </ul>
+        </article>
+      </li>
+
+    </ol>
+  </div>
+</section>
+
+<!-- ============ EDUCATION ============ -->
+<section class="section" id="education">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-num">03</span>
+      <h2 class="sec-title">Education</h2>
+      <span class="sec-rule"></span>
+    </div>
+
+    <div class="edu-grid">
+
+      <article class="edu reveal" data-accent="blue">
+        <div class="edu-shape" aria-hidden="true">
+          <svg viewBox="0 0 120 120">
+            <rect x="0" y="0" width="120" height="120" fill="var(--blue)"/>
+            <circle cx="60" cy="60" r="34" fill="var(--cream)"/>
+            <path d="M60 26 A34 34 0 0 1 60 94 Z" fill="var(--ink)"/>
+          </svg>
+        </div>
+        <p class="edu-kicker">MSc · GPA 3.7 · Jul 2020 — May 2021</p>
+        <h3 class="edu-title">Master of Science, Business Analytics</h3>
+        <p class="edu-org">University of Colorado Boulder — Leeds School of Business</p>
+        <p class="edu-body">Gained extensive knowledge in data science, market analysis, and business management that I use in everyday work, plus hands-on technical skills in <code>Python</code>, <code>SQL</code>, <code>RStudio</code>, <code>JSON</code>, <code>CSS</code>, and <code>HTML</code>.</p>
+        <p class="edu-sub">Selected projects</p>
+        <ul class="card-list">
+          <li>Built and normalized a MySQL database for a mock beer company; wrote advanced queries and user-defined functions, then integrated with Tableau for dashboards and visualizations.</li>
+          <li>Developed an ML classification model for Arrow Electronics predicting the likelihood of a customer order receiving a discount.</li>
+          <li>Scraped Twitter data for a network analysis of 3 whisky brands to assess brand positioning; preprocessed text with tokenization, sentiment analysis, and stopword removal to derive actionable recommendations.</li>
+          <li>Created customer retention and acquisition models for a women's apparel brand by computing individual-level customer lifetime value and assessing the profitability of retention efforts.</li>
+        </ul>
+      </article>
+
+      <article class="edu reveal" data-accent="red" data-delay="1">
+        <div class="edu-shape" aria-hidden="true">
+          <svg viewBox="0 0 120 120">
+            <rect x="0" y="0" width="120" height="120" fill="var(--yellow)"/>
+            <path d="M0 120 L120 120 L120 0 Z" fill="var(--red)"/>
+            <circle cx="36" cy="36" r="22" fill="var(--ink)"/>
+          </svg>
+        </div>
+        <p class="edu-kicker">BSc · GPA 3.5 · Aug 2016 — May 2020</p>
+        <h3 class="edu-title">Bachelor of Science, Strategic Communications</h3>
+        <p class="edu-org">University of Colorado Boulder — Minor in Business Entrepreneurship</p>
+        <p class="edu-body">Developed project management, teamwork, market research, start-up business analysis, and creative strategic thinking. Class projects focused on re-branding established companies, conducting quantitative and qualitative market research, and applying standardized processes to start-up business development.</p>
+        <p class="edu-sub">Beyond the coursework</p>
+        <ul class="card-list">
+          <li>Member of Chi Psi Fraternity, serving as Banquet Chairman — the liaison between members and kitchen staff.</li>
+          <li>Coordinated large banquet events, reported meal recommendations to the head chef based on member feedback, and assisted the finance chairman in managing the food budget.</li>
+        </ul>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ TOOLKIT ============ -->
+<section class="section" id="toolkit">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-num">04</span>
+      <h2 class="sec-title">Toolkit</h2>
+      <span class="sec-rule"></span>
+    </div>
+
+    <div class="kit-grid">
+
+      <div class="kit reveal">
+        <h3 class="kit-title"><span class="kit-glyph" data-accent="red"></span>Data &amp; Visualization</h3>
+        <ul class="chips">
+          <li>Power BI</li><li>Tableau</li><li>SAP Analytics Cloud</li><li>Looker Studio</li>
+          <li>SQL</li><li>Salesforce</li><li>Google Analytics</li>
+        </ul>
+      </div>
+
+      <div class="kit reveal" data-delay="1">
+        <h3 class="kit-title"><span class="kit-glyph" data-accent="blue"></span>Python for Analysis</h3>
+        <ul class="chips">
+          <li>pandas</li><li>NumPy</li><li>scikit-learn</li><li>Matplotlib</li><li>seaborn</li><li>TensorFlow</li>
+        </ul>
+      </div>
+
+      <div class="kit reveal" data-delay="2">
+        <h3 class="kit-title"><span class="kit-glyph" data-accent="yellow"></span>Ways of Working</h3>
+        <ul class="chips">
+          <li>Agile</li><li>Lean</li><li>Jira</li><li>Confluence</li><li>GitHub</li><li>Process design</li><li>Documentation</li>
+        </ul>
+      </div>
+
+      <div class="kit reveal" data-delay="3">
+        <h3 class="kit-title"><span class="kit-glyph" data-accent="sage"></span>Microsoft 365</h3>
+        <ul class="chips">
+          <li>Excel</li><li>PowerPoint</li><li>Power Automate</li><li>SharePoint</li><li>Teams</li><li>Lists</li><li>Forms</li>
+        </ul>
+      </div>
+
+      <div class="kit reveal" data-delay="1">
+        <h3 class="kit-title"><span class="kit-glyph" data-accent="blue"></span>Strengths</h3>
+        <ul class="chips">
+          <li>Stakeholder relationships</li><li>Written &amp; verbal communication</li>
+          <li>Quantitative research</li><li>Qualitative research</li><li>Sales enablement</li>
+        </ul>
+      </div>
+
+      <div class="kit reveal" data-delay="2">
+        <h3 class="kit-title"><span class="kit-glyph" data-accent="red"></span>Off the Clock</h3>
+        <ul class="chips">
+          <li>Clean tech trends</li><li>Growth marketing</li><li>Investment strategy</li>
+          <li>Fly fishing</li><li>Golf</li><li>Hiking</li><li>Skiing</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section section-contact" id="contact">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-num">05</span>
+      <h2 class="sec-title">Contact</h2>
+      <span class="sec-rule"></span>
+    </div>
+
+    <div class="contact-body reveal">
+      <p class="contact-lead">Working on something in clean tech, energy, or growth marketing?</p>
+      <a class="contact-mail" href="mailto:pulitzer.jake@gmail.com">pulitzer.jake@gmail.com</a>
+
+      <ul class="social">
+        <li><a href="https://www.linkedin.com/in/jacob-pulitzer" target="_blank" rel="noopener"><span class="sq" data-accent="blue"></span>LinkedIn</a></li>
+        <li><a href="https://github.com/jakepulitzer" target="_blank" rel="noopener"><span class="sq" data-accent="red"></span>GitHub</a></li>
+        <li><a href="https://twitter.com/pulitzer_jake" target="_blank" rel="noopener"><span class="sq" data-accent="yellow"></span>Twitter</a></li>
+        <li><a href="https://www.instagram.com/jake_pulitzer" target="_blank" rel="noopener"><span class="sq" data-accent="sage"></span>Instagram</a></li>
+        <li><a href="https://jakepulitzer.wordpress.com" target="_blank" rel="noopener"><span class="sq" data-accent="blue"></span>Portfolio</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <footer class="foot">
+    <div class="wrap foot-inner">
+      <p>© <span id="year">2026</span> Jake Pulitzer</p>
+      <p class="foot-note">References available on request</p>
+      <p class="foot-built">Built by hand — HTML, CSS, Canvas</p>
+    </div>
+  </footer>
+</section>
+
+</main>
+
+<script src="js/main.js"></script>
+</body>
+</html>
